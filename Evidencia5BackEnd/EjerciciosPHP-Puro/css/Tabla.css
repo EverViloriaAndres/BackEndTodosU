@@ -1,0 +1,45 @@
+* :not(body) {
+  background-color: #ffffff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 1;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.top * {
+  border-radius: 5px;
+}
+.rigth {
+  display: flex;
+}
+
+.tabla {
+  width: 100%;
+  display: flex;
+
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 1px 0px rgba(166, 166, 166, 1);
+}
+table {
+  flex: 1;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table * {
+  border: 1px solid #e6e6e6;
+
+  padding: 10px;
+}
